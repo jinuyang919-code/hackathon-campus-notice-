@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Frontend dependencies and generated artifacts
+node_modules/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Local environment variants (keep secret-free examples trackable)
+.env.*
+!.env.example
+!.env.*.example
+
+# Local deployment metadata
+.vercel/
