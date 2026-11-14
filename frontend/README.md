@@ -15,3 +15,7 @@ USW SYNC의 사용자 화면과 PWA 관련 코드를 관리할 공간입니다.
 React + TypeScript와 Tailwind CSS를 사용할 계획이며, 배포는 Vercel을 검토합니다. 모두 미확정이며 변경할 수 있습니다. 자체 REST API는 `backend/`에서 관리할 예정입니다.
 
 현재는 역할을 설명하는 문서만 있습니다. 실제 화면·PWA·개발 환경은 구성하지 않았으며, 담당 업무 확정 후 하위 디렉터리와 개발 파일을 추가합니다. 설치·실행 명령어도 환경 구성 후 작성합니다. 팀원 모집·공개 모집글·지원자 매칭 화면은 개발 범위에서 제외합니다.
+
+## 화면 초안
+
+정식 구현 전에 화면 구성과 흐름을 확인하기 위한 정적 프로토타입을 [`prototype/`](prototype/README.md)에 두었습니다. 빌드 없이 `index.html`을 열면 동작하며, React + TypeScript 구조가 잡히면 참고용으로만 남깁니다. 미리 보기: https://kjooy0305.github.io/testroom/usw-sync/
